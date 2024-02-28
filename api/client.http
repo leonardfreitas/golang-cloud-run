@@ -1,0 +1,13 @@
+@baseUrl = http://localhost:8080
+
+### Ok
+GET {{baseUrl}}?cep=63111020
+Accept: application/json
+
+### Not Found
+GET {{baseUrl}}?cep=12312312
+Accept: application/json
+
+### Unprocessable Entity
+GET {{baseUrl}}?cep=631110
+Accept: application/json
