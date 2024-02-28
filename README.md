@@ -32,4 +32,4 @@ curl -X GET http://localhost:8080?cep=892169
 
 ### Cloud run
 
-`https://.run.app`
+`https://golang-cloud-run-pbpj6etaya-uc.a.run.app`
